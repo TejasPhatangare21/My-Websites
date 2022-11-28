@@ -1,0 +1,279 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+
+/* Navbar Section CSS Part */
+
+
+#navbar{
+    display: flex;
+    align-items: center;
+    position: relative;
+    top: 0px;
+    color: coral;
+    margin: 4px 0px;
+}
+
+
+#navbar ul{
+    display: flex;  
+    color: rgb(241, 148, 114);
+}
+
+#navbar::before{
+    content: "";
+    top: 0px;
+    left: 0px;
+    background-color: black;
+    position: absolute;
+    height: 90%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.4;
+    color: white;
+    
+}
+
+
+#navbar ul li{
+    color: white;
+    list-style: none;
+    font-size: 1.3rem;
+}
+
+#navbar ul li a{
+    padding: 3px 57px;
+    display: block;
+    border-radius: 20px;
+    text-decoration: none;
+    color: white;
+}
+
+#navbar ul li a:hover{
+    color: rgb(14, 113, 225);
+    /* background-color: white; */
+    text-decoration: underline;
+    text-decoration-thickness:auto;
+
+    
+}
+
+
+
+/* images Section CSS Part */
+
+
+#logo{
+    margin: 20px 20px;
+}
+
+
+#logo img{
+    height: 50px;
+    margin: 3px 6px;
+}
+
+
+
+/* Home Section CSS Part */
+
+
+#home{
+    display: flex;
+    flex-direction: column;
+    padding: 0px 200px;
+    height: 260px;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+#home::before{
+    content: "";
+    background: url(2.jpeg) no-repeat center center/cover;
+    position: absolute;
+    height: 60%;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.84;
+    color: white;
+}
+
+#home h1{
+    text-align: center;
+    color: white;
+    text-decoration :underline;
+}
+
+#home p1{
+    text-align: center;
+    color: white;
+    font-size: 1.5rem;
+
+}
+
+
+/* services section for services editing */
+
+        #service{
+            margin: 14px;
+            display: flex;
+        }
+
+        #service .box1{
+            border: 2px solid white;
+            padding: 15px;
+            margin: 2px 4px;
+            border-radius: 20px;
+            background: gray;
+            margin-bottom: 20px;
+            box-shadow: 5px 7px;
+        }
+
+        #service.box1 img{
+            height: 140px;
+            margin: auto;
+            display: block;  
+        }
+
+        #service.box p{
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 1.2rem;
+        
+        }
+        
+
+
+
+        /* CLIENT AND USER section */
+
+        #clients{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: ;
+            background-color: black;
+        }
+
+        #client-section{
+            
+            height:344px ;
+        }
+
+        #client-section::before{
+            content: "";
+            position: absolute;
+            background: url('15.jpg');
+            height: 50%;
+            width: 90%;
+            z-index: -1;
+            opacity: 0.4;
+        }
+
+        #clients img{
+           height: 144px;
+        }
+
+        .clients-item{
+            padding: 50px;
+        }
+
+
+/* contact section */
+
+#contact{
+    position: relative;
+}
+
+#contactbox input,
+#contactbox textarea{
+    width: 90%;
+    padding: 0.3rem;
+    border-radius: 10px;
+    font-size: 1.1rem;
+}
+
+#contactbox{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 34px;
+    border-radius: 20px;
+}
+
+#contactbox form{
+        width: 50%;
+        
+
+}
+
+#contactbox label{
+    font-size: 1.3rem;
+    
+
+}
+   
+
+#contact::before{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    opacity: 0.7;
+    background: url('17.jpg') no-repeat center center ;
+   
+}
+
+
+/* new classes for special design */
+
+
+.fheading{
+    font-size: 2.3rem;
+    padding: 12px;
+}
+
+/* .sheading{
+    font-size: 2.8rem;
+    padding: 12px;
+} */
+
+
+.btn{
+    padding: 6px 20px;
+    margin: 17px;
+    font-size: 1.3rem;
+    border: 2px solid white;
+    background-color: gray;
+    color: rgb(19, 236, 225);
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+.center{
+    text-align: center;
+    
+}
+
+
+/* footer Design */
+
+
+footer{
+    background: black;
+    color: white;
+    padding: 9px 20px;
+
+}
+
+footer p{
+   color: white;
+
+}
